@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Tajawal', sans-serif;
+}
+body{
+    background-color: #0c1126;
+    margin: auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    width: 100%;
+    position: fixed;
+    z-index: 55;
+    backdrop-filter: blur(5px);
+}
+.logo{
+    width: 130px;
+    padding-left: 25px;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 25px;
+}
+ul li{
+    list-style-type: none;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    margin: 0 34px;
+    font-size: 19px;
+    letter-spacing: 1px;
+    transition: 0.2s;
+}
+ul li a:hover{
+    color: #4d87e9;
+    transition: 0.2s;
+}
+#Home{
+    padding-top: 180px;
+    text-align: center;
+    line-height: 40px;
+}
+#Home img{
+    border-radius: 1rem;
+    width: 320px;
+}
+#Home h1{
+    color: white;
+    font-size: 38px;
+}
+.op{
+    background-color: #4d86e949;
+    color: white;
+    padding: 10px;
+    border-radius: 100%;
+    transition: 0.3s;
+    margin: 0 8px;
+    font-size: 28px;
+    margin-top: 20px;
+}
+.op:hover{
+    transition: 0.3s;
+    background-color: #4d86e99a;
+}
+p{
+    color: #4d87e9;
+}
+    </style>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="image/icon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Why am I</title>
+</head>
+<body>
+    <nav>
+        <img class="logo" src="image/icon.png" alt="">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Codes Ready</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </nav>
+    <div id="Home">
+        <img src="image/me.png" alt="">
+        <h1>Mahmoud Wael</h1>
+        <p>Made in Egypt</p>
+        <div class="icons">
+            <a href="https://web.facebook.com/eng.mahmoud365/"><ion-icon class="op" name="logo-facebook"></ion-icon></a>
+            <a href="https://www.instagram.com/code_himex/"><ion-icon class="op" name="logo-instagram"></ion-icon></a>
+            <a href="https://www.youtube.com/channel/UC-UOEOfnRVzGcx7UiUhZbwA"><ion-icon class="op" name="logo-youtube"></ion-icon></a>
+        </div>
+    </div>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
